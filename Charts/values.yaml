@@ -1,7 +1,7 @@
 deployment:
   image: "abinaya251/myflaskapp"
   tag: "latest"
-name: teama
+name: teamb
 service:
   type: LoadBalancer
   port: 80
