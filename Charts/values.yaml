@@ -1,6 +1,7 @@
 deployment:
   image: "abinaya251/myflaskapp"
   tag: "latest"
+  secret: regcred
 name: teamb
 service:
   type: LoadBalancer
