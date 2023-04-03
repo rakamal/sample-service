@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route("/service2", methods=["GET"])
 def say_hello():
-    print(" Welcome Team A!")
-    return " Welcome Team A!"
+    print(" Welcome Team B!")
+    return " Welcome Team B!"
 
 
 if __name__ == "__main__":
