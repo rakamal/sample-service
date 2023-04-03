@@ -26,4 +26,6 @@ spec:
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
+      imagePullSecrets:
+      - name: "{{ .Values.deployment.secret }}"
       
