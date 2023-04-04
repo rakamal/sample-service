@@ -5,4 +5,4 @@ RUN pip install -r requirements.txt
 COPY . .
 EXPOSE 3080
 ENV FLASK_APP=my_flask.py
-CMD ["flask", "run", "--host", "0.0.0.0"]
+CMD ["python", "my_flask.py", "--host", "0.0.0.0"]
